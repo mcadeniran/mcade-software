@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <path
+    d="M12 80V20L40 38V62L12 80Z"
+    fill="#082B55"
+  />
+  <path
+    d="M40 38L68 20V44L40 62V38Z"
+    fill="#06C7B7"
+  />
+  <path
+    d="M68 20L88 32V80L68 68V20Z"
+    fill="#082B55"
+  />
+  <path
+    d="M40 62L60 74L68 68V44L40 62Z"
+    fill="#06C7B7"
+  />
+</svg>
