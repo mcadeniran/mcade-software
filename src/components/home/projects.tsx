@@ -57,13 +57,7 @@ export function Projects() {
                       </span>
                     ))}
                   </div>
-
-                  <Link
-                    href={project.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-[#06C7B7] hover:text-[#00DCC5]"
-                  >
+                  <Link href={`/projects/${project.slug}`} className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-[#06C7B7] hover:text-[#00DCC5]">
                     View Project
                     <ArrowUpRight size={17} />
                   </Link>

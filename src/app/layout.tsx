@@ -2,6 +2,8 @@
 import type {Metadata, Viewport} from "next";
 import {Montserrat, Inter} from "next/font/google";
 import "./globals.css";
+import {Navbar} from "@/components/layout/navbar";
+import {Footer} from "@/components/layout/footer";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -88,7 +90,11 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${inter.variable}`}
     >
-      <body suppressHydrationWarning={true}>{children}</body>
+      <body suppressHydrationWarning={true}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
